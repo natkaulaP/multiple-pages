@@ -1,0 +1,166 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  background: #222;
+  background-image: url("https://source.unsplash.com/1600x900/?weather");
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+button#submit-button{
+  border-radius: 20px;
+  border: none;
+  height: 2.5em;
+  outline: none;
+  padding: 2px;
+  background: #7c7c7c2b;
+  color:white;
+}
+button#current-button {
+  border-radius: 20px;
+  border: none;
+  height: 2.5em;
+  outline: none;
+  padding: 2px;
+  background: #7c7c7c2b;
+color: white;
+}
+.card {
+  background: #000000d0;
+  color: white;
+  padding: 2em;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+}
+.weekly li {
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  word-spacing: 25px;
+}
+.city {
+  font-size: 34px;
+}
+.temp {
+  font-size: 4em;
+  font-weight: bold;
+}
+.discription {
+  font-size: 35px;
+}
+
+.pressure {
+  font-size: 30px;
+}
+
+.humidity {
+  font-size: 30px;
+}
+
+.wind {
+  font-size: 30px;
+}
+ #search-input {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5em;
+  border-radius: 20px;
+  height: 2.5em;
+  border: none;
+  outline: none;
+  background: #7c7c7c2b;
+  padding: 2px;
+  color:white;
+}
+#search {
+  display: block;
+  margin: 0 auto;
+}
+
+.leaf {
+  justify-content: center;
+  text-align: center;
+  border-color: #4d4c4c;
+  background-color: #7c7c7c2b;
+  color: white;
+  max-width: 140px;
+  max-height: 140px;
+}
+.leaf1 {
+  justify-content: center;
+  text-align: center;
+  border-color: #4d4c4c;
+  background-color: #7c7c7c2b;
+  color: white;
+  width: 140px;
+  height: 140px;
+}
+
+.leaf2 {
+  justify-content: center;
+  text-align: center;
+  border-color: #4d4c4c;
+  background-color: #7c7c7c2b;
+  color: white;
+  width: 140px;
+  height: 140px;
+}
+
+.leaf3 {
+  justify-content: center;
+  text-align: center;
+  border-color: #4d4c4c;
+  background-color: #7c7c7c2b;
+  color: white;
+  width: 140px;
+  height: 140px;
+}
+
+.leaf4 {
+  justify-content: center;
+  text-align: center;
+  border-color: #4d4c4c;
+  background-color: #7c7c7c2b;
+  color: white;
+  width: 140px;
+  height: 140px;
+}
+
+.leaf5 {
+  justify-content: center;
+  text-align: center;
+  border-color: #4d4c4c;
+  background-color: #7c7c7c2b;
+  color: white;
+  width: 140px;
+  height: 140px;
+}
+
+.leaf6 {
+  justify-content: center;
+  text-align: center;
+  border-color: #4d4c4c;
+  background-color: #7c7c7c2b;
+  color: white;
+  width: 140px;
+  height: 140px;
+}
+.label {
+ font-size: 15px;
+ color: cornsilk;
+text-decoration: underline ;
+}
+.contact {
+ text-decoration: none;
+ }

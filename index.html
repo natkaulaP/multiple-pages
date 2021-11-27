@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+  <title>Weather</title>
+</head>
+<body>
+  <div class="container">
+<div class="card">
+ <div class="search">
+ <form id="search">
+  <input type="text"placeholder="City name"autocomplete="off"autofocus="on"id="search-input">
+<button id ="submit-button">Search
+</button>
+<button id="current-button">Current</button>
+</form>
+</div>
+<div class="weather">
+ <div class="row align-items-start">
+    <div class="col">
+       <h2 id= "city"> Krakow</h2>
+<h1 id="temp">19</h1>
+<a id="celsius" href="#">°C</a><span id="divider">|</span>
+<a id="fahrenheit" href="#">°F</a>
+<h3 id="date-and-time">Friday 12:51</h3>
+<img src="icon.png"alt="clouds"class="icon"/>
+     
+    </div>
+    <div class="col">
+      <div id="description">Sunny  spells with  rain</div>
+      <div id="pressure">Pressure  1000mb</div>
+<div id="humidity">Humidity: 60%</div>
+<div id="wind">Wind speed: 6.5km/h</div>
+      </div>
+    </div> 
+  </div>
+ <div class="row "> 
+      <div class="card leaf">
+         <div class="col ">Mon<br/>🌧<br/>high:18°C<br/>low:10°C
+
+         </div>
+    </div>
+   <div class="card leaf1">
+    <div class="col">Tue<br/>🌧<br/>high:18°C<br/>low:11°C
+
+    </div>
+     </div>
+    <div class="card leaf2">
+        <div class="col ">Wed<br/>🌧<br/>high:18°C<br/>low:11°C
+
+        </div>
+    </div>
+    <div class="card leaf3">
+        <div class="col">Thu<br/>🌧<br/>high:18°C<br/>low:11°C
+
+        </div>
+    </div>
+    <div class="card leaf4">
+        <div class="col">Fri<br/>🌧<br/>high:17°C<br/>low:9°C
+
+        </div>
+    </div>
+    
+    <div class="card leaf5">
+         <div class="col">Sat<br/>🌥<br/>high:20°C<br/>low:8°C
+
+         </div>
+        </div>
+  
+    <div class="card leaf6">
+         <div class="col">Sun<br/>🌧<br/>high:17°C<br/>low:10°C 
+        </div>
+        </div><a href="https://github.com/natkaulaP/Library-of-code" target="_blank" class="contact">Open-source code by <span class="label">Urszula Paruch</span></a>
+    </div> 
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<script src="scripts.js"> </script>
+</body>
+</html>
